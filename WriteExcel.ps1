@@ -13,7 +13,7 @@ $ExcelWorkSheet.Columns.Item(2).Rows.Item(4).Text
 $ExcelWorkSheet.Rows.Item(4).Columns.Item(2).Text
 $ExcelWorkSheet.Range("A6") = 'User'
 $ExcelWorkSheet.Range("B6") = 'User'
-$ExcelWorkSheet.Range("C4") = 'End user'
+$ExcelWorkSheet.Range("C6") = 'End user'
 $ExcelWorkBook.Save()
 $ExcelWorkBook.close($true)
 $ExcelObj.Quit()
